@@ -2,10 +2,7 @@ import urllib.request
 import json
 
 def buscar_cotacoes():
-    """
-    Função que faz uma requisição HTTP para a AwesomeAPI 
-    usando apenas as bibliotecas nativas do Python.
-    """
+   
     url = "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL"
     
     print("Conectando ao servidor financeiro...\n")
